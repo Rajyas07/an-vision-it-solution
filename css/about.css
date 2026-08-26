@@ -1,0 +1,357 @@
+
+.about-image-wrapper {
+    position: relative;
+
+    overflow: hidden;
+
+    background: #e2e8f0;
+
+    border-radius: 16px;
+}
+
+.about-image {
+    width: 100%;
+
+    transition:
+        transform 0.6s ease,
+        filter 0.4s ease;
+}
+
+.about-image-wrapper:hover .about-image {
+    transform: scale(1.03);
+
+    filter: brightness(0.96);
+}
+
+
+/* =========================================================
+   PURPOSE CARDS
+========================================================= */
+
+.purpose-card {
+    position: relative;
+
+    padding: 28px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 16px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.purpose-card:hover {
+    transform: translateY(-6px);
+
+    border-color: #bfdbfe;
+
+    box-shadow:
+        0 15px 35px
+        rgba(15, 23, 42, 0.08);
+}
+
+.purpose-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 14px;
+
+    background: #eff6ff;
+
+    color: #1d4ed8;
+
+    font-size: 22px;
+}
+
+.purpose-card h3 {
+    color: #0f172a;
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+.purpose-card p {
+    margin-top: 10px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   WHY CHOOSE US
+========================================================= */
+
+.why-card {
+    padding: 30px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 16px;
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.why-card:hover {
+    transform: translateY(-5px);
+
+    border-color: #bfdbfe;
+
+    box-shadow:
+        0 15px 35px
+        rgba(15, 23, 42, 0.08);
+}
+
+.why-icon {
+    width: 52px;
+    height: 52px;
+
+    display: flex;
+
+    align-items: center;
+    justify-content: center;
+
+    margin-bottom: 20px;
+
+    border-radius: 14px;
+
+    background: #eff6ff;
+
+    color: #1d4ed8;
+
+    font-size: 21px;
+}
+
+.why-card h3 {
+    color: #0f172a;
+
+    font-size: 19px;
+
+    font-weight: 700;
+
+    line-height: 1.3;
+}
+
+.why-card p {
+    margin-top: 10px;
+
+    color: #64748b;
+
+    font-size: 14px;
+
+    line-height: 1.7;
+}
+
+
+/* =========================================================
+   TEAM SECTION
+========================================================= */
+
+.team-card {
+    overflow: hidden;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 5px 18px
+        rgba(15, 23, 42, 0.05);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+.team-card:hover {
+    transform: translateY(-7px);
+
+    border-color: #bfdbfe;
+
+    box-shadow:
+        0 18px 40px
+        rgba(15, 23, 42, 0.10);
+}
+
+
+/* Team image */
+
+.team-image-wrapper {
+    width: 100%;
+    height: 330px;
+
+    overflow: hidden;
+
+    background:
+        linear-gradient(
+            135deg,
+            #eff6ff,
+            #dbeafe
+        );
+}
+
+.team-image {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+
+    transition:
+        transform 0.5s ease;
+}
+
+.team-card:hover .team-image {
+    transform: scale(1.04);
+}
+
+
+/* =========================================================
+   EXPERTISE ITEMS
+   Keep only if used in about.html
+========================================================= */
+
+.expertise-item {
+    display: flex;
+
+    align-items: center;
+
+    gap: 14px;
+
+    padding: 17px 18px;
+
+    background: #ffffff;
+
+    border: 1px solid #e2e8f0;
+
+    border-radius: 12px;
+
+    color: #334155;
+
+    font-size: 15px;
+
+    font-weight: 600;
+
+    transition:
+        transform 0.25s ease,
+        border-color 0.25s ease,
+        box-shadow 0.25s ease;
+}
+
+.expertise-item:hover {
+    transform: translateX(4px);
+
+    border-color: #bfdbfe;
+
+    box-shadow:
+        0 8px 20px
+        rgba(15, 23, 42, 0.06);
+}
+
+.expertise-item span {
+    min-width: 28px;
+
+    color: #2563eb;
+
+    font-size: 12px;
+
+    font-weight: 800;
+}
+
+
+/* =========================================================
+   ABOUT CTA
+========================================================= */
+
+.about-cta {
+    position: relative;
+
+    overflow: hidden;
+}
+
+
+/* =========================================================
+   MOBILE
+========================================================= */
+
+@media (max-width: 767px) {
+
+    .about-image {
+        height: 320px !important;
+    }
+
+    .purpose-card,
+    .why-card {
+        padding: 24px;
+    }
+
+    .team-image-wrapper {
+        height: 300px;
+    }
+
+}
+
+
+/* =========================================================
+   SMALL MOBILE
+========================================================= */
+
+@media (max-width: 480px) {
+
+    .about-image {
+        height: 270px !important;
+    }
+
+    .team-image-wrapper {
+        height: 280px;
+    }
+
+    .purpose-card,
+    .why-card {
+        padding: 22px;
+    }
+
+}
+
+
+/* =========================================================
+   REDUCED MOTION
+========================================================= */
+
+@media (prefers-reduced-motion: reduce) {
+
+    .about-image,
+    .purpose-card,
+    .why-card,
+    .team-card,
+    .team-image,
+    .expertise-item {
+        transition: none;
+    }
+
+}

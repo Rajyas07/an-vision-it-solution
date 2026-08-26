@@ -1,0 +1,1205 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0"
+    >
+
+    <title>
+        Contact Us | AN Vision IT Solution
+    </title>
+
+    <meta
+        name="description"
+        content="Contact AN Vision IT Solution for IT infrastructure, networking, server, Wi-Fi, CCTV, access control, structured cabling and maintenance solutions."
+    >
+
+
+    <!-- =====================================================
+         TAILWIND CSS
+    ====================================================== -->
+
+    <script src="https://cdn.tailwindcss.com"></script>
+
+
+    <!-- =====================================================
+         GOOGLE FONT
+    ====================================================== -->
+
+    <link
+        rel="preconnect"
+        href="https://fonts.googleapis.com"
+    >
+
+    <link
+        rel="preconnect"
+        href="https://fonts.gstatic.com"
+        crossorigin
+    >
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
+
+
+    <!-- =====================================================
+         COMMON CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/style.css"
+    >
+
+
+    <!-- =====================================================
+         CONTACT PAGE CSS
+    ====================================================== -->
+
+    <link
+        rel="stylesheet"
+        href="css/contact.css"
+    >
+
+</head>
+
+
+<body class="font-['Inter'] text-slate-800 bg-white">
+
+
+    <!-- =====================================================
+         HEADER
+    ====================================================== -->
+
+    <header
+        class="fixed top-0 left-0 w-full z-50
+               bg-white/95 backdrop-blur-md shadow-sm"
+    >
+
+        <nav class="max-w-7xl mx-auto px-5 lg:px-8">
+
+            <div class="h-20 flex items-center justify-between">
+
+
+                <!-- =================================================
+                     LOGO
+                ================================================= -->
+
+                <a
+                    href="index.html"
+                    class="navbar-brand flex items-center gap-3 shrink-0"
+                >
+
+                    <div class="logo-wrapper">
+
+                        <img
+                            src="assets/images/logo.png"
+                            alt="AN Vision IT Solution Logo"
+                            class="navbar-logo"
+                        >
+
+                    </div>
+
+
+                    <div class="leading-tight">
+
+                        <span
+                            class="navbar-brand-title block
+                                   text-xl font-extrabold
+                                   tracking-wide"
+                        >
+                            AN VISION
+                        </span>
+
+                        <span
+                            class="navbar-brand-subtitle block
+                                   text-xs font-semibold
+                                   tracking-[0.18em]"
+                        >
+                            IT SOLUTION
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <!-- =================================================
+                     DESKTOP NAVIGATION
+                ================================================= -->
+
+                <div class="hidden lg:flex items-center gap-8">
+
+                    <a
+                        href="index.html"
+                        class="text-slate-600
+                               hover:text-blue-700 transition"
+                    >
+                        Home
+                    </a>
+
+                    <a
+                        href="services.html"
+                        class="text-slate-600
+                               hover:text-blue-700 transition"
+                    >
+                        Services
+                    </a>
+
+                    <a
+                        href="projects.html"
+                        class="text-slate-600
+                               hover:text-blue-700 transition"
+                    >
+                        Our Projects
+                    </a>
+
+                    <a
+                        href="about.html"
+                        class="text-slate-600
+                               hover:text-blue-700 transition"
+                    >
+                        About
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="text-blue-700 font-semibold"
+                    >
+                        Contact Us
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="px-5 py-3 rounded-lg
+                               bg-blue-700 text-white
+                               font-semibold
+                               hover:bg-blue-800
+                               transition shadow-md"
+                    >
+                        Get a Quote
+                    </a>
+
+                </div>
+
+
+                <!-- =================================================
+                     MOBILE MENU BUTTON
+                ================================================= -->
+
+                <button
+                    id="mobile-menu-btn"
+                    class="lg:hidden text-slate-700
+                           text-3xl focus:outline-none"
+                    aria-label="Open Menu"
+                    type="button"
+                >
+                    ☰
+                </button>
+
+            </div>
+
+
+            <!-- =================================================
+                 MOBILE MENU
+            ================================================= -->
+
+            <div
+                id="mobile-menu"
+                 class="hidden lg:hidden border-t border-slate-200 py-5 bg-white shadow-lg"
+            >
+
+                <div class="flex flex-col gap-4">
+
+                    <a
+                        href="index.html"
+                        class="text-slate-600"
+                    >
+                        Home
+                    </a>
+
+                    <a
+                        href="services.html"
+                        class="text-slate-600"
+                    >
+                        Services
+                    </a>
+
+                    <a
+                        href="projects.html"
+                        class="text-slate-600"
+                    >
+                        Our Projects
+                    </a>
+
+                    <a
+                        href="about.html"
+                        class="text-slate-600"
+                    >
+                        About
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="text-blue-700 font-semibold"
+                    >
+                        Contact Us
+                    </a>
+
+                    <a
+                        href="contact.html"
+                        class="w-fit px-5 py-3 rounded-lg
+                               bg-blue-700 text-white
+                               font-semibold"
+                    >
+                        Get a Quote
+                    </a>
+
+                </div>
+
+            </div>
+
+        </nav>
+
+    </header>
+
+
+    <!-- =====================================================
+         MAIN
+    ====================================================== -->
+
+    <main>
+
+
+        <!-- =================================================
+             CONTACT HERO
+        ================================================== -->
+
+        <section
+            class="pt-36 pb-20 lg:pt-40 lg:pb-24
+                   bg-gradient-to-br from-blue-50
+                   via-white to-blue-100"
+        >
+
+            <div
+                class="max-w-5xl mx-auto px-5 lg:px-8
+                       text-center"
+            >
+
+                <span
+                    class="inline-block px-4 py-2 rounded-full
+                           bg-blue-100 text-blue-700
+                           text-sm font-semibold"
+                >
+                    CONTACT US
+                </span>
+
+
+                <h1
+                    class="mt-5 text-4xl sm:text-5xl
+                           lg:text-6xl font-extrabold
+                           leading-tight text-slate-900"
+                >
+                    Let's Talk About
+                    <span class="text-blue-700">
+                        Your Project
+                    </span>
+                </h1>
+
+
+                <p
+                    class="mt-6 max-w-3xl mx-auto
+                           text-lg text-slate-600
+                           leading-relaxed"
+                >
+                    Have an IT infrastructure requirement,
+                    security project or maintenance need?
+                    Get in touch with our team.
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             CONTACT SECTION
+        ================================================== -->
+
+        <section class="py-20 lg:py-24 bg-white">
+
+            <div
+                class="max-w-6xl mx-auto px-5 lg:px-8"
+            >
+
+                <div
+                    class="grid lg:grid-cols-5
+                           gap-10 lg:gap-16"
+                >
+
+
+                    <!-- =================================================
+                         CONTACT INFORMATION
+                    ================================================= -->
+
+                    <div class="lg:col-span-2">
+
+                        <span
+                            class="text-blue-700 font-semibold
+                                   text-sm uppercase
+                                   tracking-wider"
+                        >
+                            Get In Touch
+                        </span>
+
+
+                        <h2
+                            class="mt-3 text-3xl sm:text-4xl
+                                   font-bold text-slate-900"
+                        >
+                            We'd Love to Hear From You
+                        </h2>
+
+
+                        <p
+                            class="mt-5 text-slate-600
+                                   leading-relaxed"
+                        >
+                            Tell us what you need and our team
+                            will get back to you regarding your
+                            project or service requirement.
+                        </p>
+
+
+                        <!-- CONTACT CARDS -->
+
+                        <div class="mt-8 space-y-4">
+
+
+                            <!-- PHONE -->
+
+                            <a
+                                href="tel:+918948709908"
+                                class="contact-info-card"
+                            >
+
+                                <div class="contact-info-icon">
+                                    ☎
+                                </div>
+
+                                <div>
+
+                                    <span>
+                                        Call Us
+                                    </span>
+
+                                    <strong>
+                                        +91 89487 09908
+                                    </strong>
+
+                                </div>
+
+                            </a>
+
+
+                            <!-- SECOND PHONE -->
+
+                            <a
+                                href="tel:+918931993499"
+                                class="contact-info-card"
+                            >
+
+                                <div class="contact-info-icon">
+                                    ☎
+                                </div>
+
+                                <div>
+
+                                    <span>
+                                        Call Us
+                                    </span>
+
+                                    <strong>
+                                        +91 89319 93499
+                                    </strong>
+
+                                </div>
+
+                            </a>
+
+
+                            <!-- EMAIL -->
+
+                            <a
+                                href="mailto:anvisionitsolution@gmail.com"
+                                class="contact-info-card"
+                            >
+
+                                <div class="contact-info-icon">
+                                    ✉
+                                </div>
+
+                                <div>
+
+                                    <span>
+                                        Email Us
+                                    </span>
+
+                                    <strong>
+                                        anvisionitsolution@gmail.com
+                                    </strong>
+
+                                </div>
+
+                            </a>
+
+
+                            <!-- LOCATION -->
+
+                            <div class="contact-info-card">
+
+                                <div class="contact-info-icon">
+                                    📍
+                                </div>
+
+                                <div>
+
+                                    <span>
+                                        Our Location
+                                    </span>
+
+                                    <strong>
+                                        Building No. 137,
+                                        Chhapiya Chauraha,
+                                        Bhatpar Rani Road,
+                                        Deoria, Uttar Pradesh - 274702
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+
+                            <!-- WORKING HOURS -->
+
+                            <div class="contact-info-card">
+
+                                <div class="contact-info-icon">
+                                    ◷
+                                </div>
+
+                                <div>
+
+                                    <span>
+                                        Business Hours
+                                    </span>
+
+                                    <strong>
+                                        Mon - Sat | 9:00 AM - 6:00 PM
+                                    </strong>
+
+                                </div>
+
+                            </div>
+
+                        </div>
+
+
+                        <!-- WHATSAPP -->
+
+                        <a
+                            href="https://wa.me/918948709908"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="inline-flex items-center
+                                   gap-3 mt-7 px-6 py-3.5
+                                   rounded-lg bg-green-500
+                                   text-white font-semibold
+                                   hover:bg-green-600
+                                   transition"
+                        >
+
+                            <span>
+                                💬
+                            </span>
+
+                            Chat on WhatsApp
+
+                        </a>
+
+                    </div>
+
+
+                    <!-- =================================================
+                         CONTACT FORM
+                    ================================================= -->
+
+                    <div class="lg:col-span-3">
+
+                        <div class="contact-form-wrapper">
+
+                            <div class="mb-8">
+
+                                <h2
+                                    class="text-2xl sm:text-3xl
+                                           font-bold text-slate-900"
+                                >
+                                    Request a Consultation
+                                </h2>
+
+                                <p
+                                    class="mt-2 text-slate-500"
+                                >
+                                    Fill in your details and tell
+                                    us about your requirement.
+                                </p>
+
+                            </div>
+
+
+                            <form
+                                id="contact-form"
+                                action="#"
+                                method="POST"
+                            >
+
+
+                                <!-- NAME + PHONE -->
+
+                                <div
+                                    class="grid sm:grid-cols-2
+                                           gap-5"
+                                >
+
+                                    <div>
+
+                                        <label
+                                            for="name"
+                                            class="contact-label"
+                                        >
+                                            Full Name
+                                            <span>*</span>
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            id="name"
+                                            name="name"
+                                            placeholder="Enter your name"
+                                            required
+                                            class="contact-input"
+                                        >
+
+                                    </div>
+
+
+                                    <div>
+
+                                        <label
+                                            for="phone"
+                                            class="contact-label"
+                                        >
+                                            Phone Number
+                                            <span>*</span>
+                                        </label>
+
+                                        <input
+                                            type="tel"
+                                            id="phone"
+                                            name="phone"
+                                            placeholder="+91 XXXXX XXXXX"
+                                            required
+                                            class="contact-input"
+                                        >
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- EMAIL + COMPANY -->
+
+                                <div
+                                    class="grid sm:grid-cols-2
+                                           gap-5 mt-5"
+                                >
+
+                                    <div>
+
+                                        <label
+                                            for="email"
+                                            class="contact-label"
+                                        >
+                                            Email Address
+                                            <span>*</span>
+                                        </label>
+
+                                        <input
+                                            type="email"
+                                            id="email"
+                                            name="email"
+                                            placeholder="you@example.com"
+                                            required
+                                            class="contact-input"
+                                        >
+
+                                    </div>
+
+
+                                    <div>
+
+                                        <label
+                                            for="company"
+                                            class="contact-label"
+                                        >
+                                            Company Name
+                                        </label>
+
+                                        <input
+                                            type="text"
+                                            id="company"
+                                            name="company"
+                                            placeholder="Your company"
+                                            class="contact-input"
+                                        >
+
+                                    </div>
+
+                                </div>
+
+
+                                <!-- SERVICE -->
+
+                                <div class="mt-5">
+
+                                    <label
+                                        for="service"
+                                        class="contact-label"
+                                    >
+                                        Service Required
+                                        <span>*</span>
+                                    </label>
+
+                                    <select
+                                        id="service"
+                                        name="service"
+                                        required
+                                        class="contact-input"
+                                    >
+
+                                        <option value="">
+                                            Select a service
+                                        </option>
+
+                                        <option value="data-networking">
+                                            Data Networking
+                                        </option>
+
+                                        <option value="server-installation">
+                                            Server Installation
+                                        </option>
+
+                                        <option value="wifi-solutions">
+                                            Wi-Fi Solutions
+                                        </option>
+
+                                        <option value="structured-cabling">
+                                            Structured Cabling
+                                        </option>
+
+                                        <option value="cctv-surveillance">
+                                            CCTV Surveillance
+                                        </option>
+
+                                        <option value="access-control">
+                                            Access Control
+                                        </option>
+
+                                        <option value="biometric-systems">
+                                            Biometric Systems
+                                        </option>
+
+                                        <option value="fire-alarm">
+                                            Fire Alarm Systems
+                                        </option>
+
+                                        <option value="pa-systems">
+                                            PA Systems
+                                        </option>
+
+                                        <option value="it-infrastructure">
+                                            IT Infrastructure
+                                        </option>
+
+                                        <option value="maintenance-support">
+                                            Maintenance & Support
+                                        </option>
+
+                                        <option value="other">
+                                            Other / General Enquiry
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <!-- REQUIREMENT TYPE -->
+
+                                <div class="mt-5">
+
+                                    <label
+                                        for="project-type"
+                                        class="contact-label"
+                                    >
+                                        Requirement Type
+                                    </label>
+
+                                    <select
+                                        id="project-type"
+                                        name="project_type"
+                                        class="contact-input"
+                                    >
+
+                                        <option value="">
+                                            Select requirement type
+                                        </option>
+
+                                        <option value="new-installation">
+                                            New Installation
+                                        </option>
+
+                                        <option value="upgrade">
+                                            Existing System Upgrade
+                                        </option>
+
+                                        <option value="maintenance">
+                                            Maintenance
+                                        </option>
+
+                                        <option value="consultation">
+                                            Consultation
+                                        </option>
+
+                                        <option value="quote">
+                                            Request for Quote
+                                        </option>
+
+                                    </select>
+
+                                </div>
+
+
+                                <!-- MESSAGE -->
+
+                                <div class="mt-5">
+
+                                    <label
+                                        for="message"
+                                        class="contact-label"
+                                    >
+                                        Project Details
+                                        <span>*</span>
+                                    </label>
+
+                                    <textarea
+                                        id="message"
+                                        name="message"
+                                        rows="6"
+                                        placeholder="Tell us about your project, location, requirements or any specific questions..."
+                                        required
+                                        class="contact-input resize-none"
+                                    ></textarea>
+
+                                </div>
+
+
+                                <!-- SUBMIT -->
+
+                                <button
+                                    type="submit"
+                                    class="contact-submit-btn"
+                                >
+                                    Send Enquiry
+
+                                    <span>
+                                        →
+                                    </span>
+
+                                </button>
+
+
+                                <p
+                                    class="mt-4 text-xs
+                                           text-slate-400
+                                           text-center"
+                                >
+                                    By submitting this form,
+                                    you agree to be contacted
+                                    regarding your enquiry.
+                                </p>
+
+                            </form>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             QUICK SERVICE CTA
+        ================================================== -->
+
+        <section class="py-16 bg-slate-50">
+
+            <div
+                class="max-w-6xl mx-auto px-5 lg:px-8
+                       text-center"
+            >
+
+                <h2
+                    class="text-3xl sm:text-4xl
+                           font-bold text-slate-900"
+                >
+                    Looking for a Specific Service?
+                </h2>
+
+                <p
+                    class="mt-4 text-slate-600"
+                >
+                    Explore our complete range of IT and
+                    infrastructure solutions.
+                </p>
+
+                <a
+                    href="services.html"
+                    class="inline-flex items-center
+                           gap-2 mt-7 px-7 py-3.5
+                           rounded-lg bg-blue-700
+                           text-white font-semibold
+                           hover:bg-blue-800
+                           transition"
+                >
+                    Explore Services
+                    <span>→</span>
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- =================================================
+             FINAL CTA
+        ================================================== -->
+
+        <section
+            class="py-20 lg:py-24
+                   bg-gradient-to-r
+                   from-blue-700 to-blue-950"
+        >
+
+            <div
+                class="max-w-4xl mx-auto px-5
+                       text-center text-white"
+            >
+
+                <h2
+                    class="text-3xl sm:text-4xl
+                           lg:text-5xl font-bold"
+                >
+                    Let's Build Something Reliable
+                </h2>
+
+                <p
+                    class="mt-5 text-blue-100 text-lg"
+                >
+                    Your technology requirement starts
+                    with a conversation.
+                </p>
+
+                <a
+                    href="tel:+918948709908"
+                    class="inline-flex mt-8 px-8
+                           py-3.5 rounded-lg
+                           bg-white text-blue-700
+                           font-bold hover:bg-blue-50
+                           transition shadow-lg"
+                >
+                    Call Our Team
+                </a>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- =====================================================
+         FOOTER
+    ====================================================== -->
+
+    <footer class="bg-slate-950 text-slate-300">
+
+        <div
+            class="max-w-7xl mx-auto px-5
+                   lg:px-8 py-14"
+        >
+
+            <div
+                class="grid sm:grid-cols-2
+                       lg:grid-cols-4 gap-10"
+            >
+
+
+                <!-- COMPANY -->
+
+                <div>
+
+                    <img
+                        src="assets/images/logo.png"
+                        alt="AN Vision IT Solution"
+                        class="h-12 w-auto mb-5"
+                    >
+
+                    <p
+                        class="text-sm leading-relaxed
+                               text-slate-400"
+                    >
+                        Complete IT infrastructure,
+                        networking and ELV solutions
+                        for businesses and institutions.
+                    </p>
+
+                </div>
+
+
+                <!-- FOLLOW US -->
+
+                <div>
+
+                    <h3
+                        class="text-white
+                               font-semibold mb-5"
+                    >
+                        Follow Us
+                    </h3>
+
+                    <div class="footer-socials">
+
+
+                        <!-- Instagram -->
+
+                        <a
+                            href="#"
+                            class="footer-social instagram"
+                            aria-label="Instagram"
+                        >
+
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm0 2a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3H7zm5 3.5A4.5 4.5 0 1 1 7.5 12 4.5 4.5 0 0 1 12 7.5zm0 2A2.5 2.5 0 1 0 14.5 12 2.5 2.5 0 0 0 12 9.5zM17.5 6.5a1 1 0 1 1-1 1 1 1 0 0 1 1-1z"
+                                />
+                            </svg>
+
+                        </a>
+
+
+                        <!-- X -->
+
+                        <a
+                            href="#"
+                            class="footer-social twitter"
+                            aria-label="X"
+                        >
+
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M18.244 2H21.5l-7.11 8.13L22.75 22h-6.56l-5.14-6.72L5.17 22H1.91l7.6-8.69L1.5 2h6.73l4.65 6.15L18.244 2zm-1.15 17.84h1.82L7.22 4.05H5.27l11.824 15.79z"
+                                />
+                            </svg>
+
+                        </a>
+
+
+                        <!-- LinkedIn -->
+
+                        <a
+                            href="#"
+                            class="footer-social linkedin"
+                            aria-label="LinkedIn"
+                        >
+
+                            <svg
+                                viewBox="0 0 24 24"
+                                fill="currentColor"
+                            >
+                                <path
+                                    d="M6.5 8.5H3V21h3.5V8.5zM4.75 3A2.05 2.05 0 1 0 4.75 7.1 2.05 2.05 0 0 0 4.75 3zM21 13.9c0-3.76-2-5.51-4.67-5.51-2.15 0-3.11 1.18-3.65 2.01V8.5H9.2V21h3.48v-6.19c0-1.63.31-3.2 2.32-3.2 1.98 0 2.01 1.86 2.01 3.31V21H21v-7.1z"
+                                />
+                            </svg>
+
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- QUICK LINKS -->
+
+                <div>
+
+                    <h3
+                        class="text-white
+                               font-semibold mb-5"
+                    >
+                        Quick Links
+                    </h3>
+
+                    <div class="space-y-3 text-sm">
+
+                        <a
+                            href="index.html"
+                            class="block hover:text-white"
+                        >
+                            Home
+                        </a>
+
+                        <a
+                            href="services.html"
+                            class="block hover:text-white"
+                        >
+                            Services
+                        </a>
+
+                        <a
+                            href="projects.html"
+                            class="block hover:text-white"
+                        >
+                            Our Projects
+                        </a>
+
+                        <a
+                            href="about.html"
+                            class="block hover:text-white"
+                        >
+                            About Us
+                        </a>
+
+                        <a
+                            href="contact.html"
+                            class="block hover:text-white"
+                        >
+                            Contact Us
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONTACT US -->
+
+                <div>
+
+                    <h3
+                        class="text-white
+                               font-semibold mb-5"
+                    >
+                        Contact Us
+                    </h3>
+
+                    <div class="space-y-4 text-sm">
+
+                        <a
+                            href="tel:+918948709908"
+                            class="block hover:text-white"
+                        >
+                            📞 +91 89487 09908
+                        </a>
+
+                        <a
+                            href="tel:+918931993499"
+                            class="block hover:text-white"
+                        >
+                            📞 +91 89319 93499
+                        </a>
+
+                        <a
+                            href="mailto:anvisionitsolution@gmail.com"
+                            class="block break-all hover:text-white"
+                        >
+                            ✉ anvisionitsolution@gmail.com
+                        </a>
+
+                        <p>
+                            📍 Building No. 137,
+                            Chhapiya Chauraha,
+                            Bhatpar Rani Road,
+                            Deoria, Uttar Pradesh - 274702
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- COPYRIGHT -->
+
+            <div
+                class="mt-12 pt-6
+                       border-t border-slate-800
+                       text-center text-sm
+                       text-slate-500"
+            >
+
+                ©
+                <span id="current-year"></span>
+                AN Vision IT Solution.
+                All Rights Reserved.
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- =====================================================
+         COMMON JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/script.js"></script>
+
+
+    <!-- =====================================================
+         CONTACT JAVASCRIPT
+    ====================================================== -->
+
+    <script src="js/contact.js"></script>
+
+</body>
+
+</html>
