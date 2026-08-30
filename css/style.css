@@ -47,12 +47,7 @@ a {
     background: #1d4ed8;
     color: #ffffff;
 }
-
-
-/* =========================================================
-   SCROLLBAR
-========================================================= */
-
+ 
 ::-webkit-scrollbar {
     width: 8px;
 }
@@ -71,11 +66,7 @@ a {
     background: #1e3a8a;
 }
 
-
-/* =========================================================
-   COMMON HEADER
-   Same visual style on every page
-========================================================= */
+ 
 
 header {
     position: fixed;
@@ -103,7 +94,7 @@ header {
 }
 
 
-/* Header links */
+ 
 
 header nav a {
     text-decoration: none;
@@ -115,10 +106,7 @@ header nav a {
         box-shadow 0.25s ease;
 }
 
-
-/* =========================================================
-   LOGO
-========================================================= */
+ 
 
 .logo-wrapper {
     width: 68px;
@@ -155,20 +143,12 @@ header nav a {
 .navbar-brand-subtitle {
     color: #1d4ed8;
 }
-
-
-/* =========================================================
-   DESKTOP NAVBAR
-   Current HTML structure:
-   .hidden.lg:flex.items-center.gap-8
-========================================================= */
+ 
 
 header nav .hidden.lg\:flex.items-center.gap-8 {
     align-items: center;
 }
-
-
-/* Normal navigation links */
+ 
 
 header nav .hidden.lg\:flex.items-center.gap-8 > a:not([class*="bg-blue-700"]) {
     display: inline-flex;
@@ -189,8 +169,7 @@ header nav .hidden.lg\:flex.items-center.gap-8 > a:not([class*="bg-blue-700"]) {
     white-space: nowrap;
 }
 
-
-/* Hover */
+ 
 
 header nav .hidden.lg\:flex.items-center.gap-8 > a:not([class*="bg-blue-700"]):hover {
     color: #2563eb !important;
@@ -203,19 +182,13 @@ header nav .hidden.lg\:flex.items-center.gap-8 > a:not([class*="bg-blue-700"]):h
     transform: translateY(-1px);
 }
 
-
-/* =========================================================
-   ACTIVE PAGE LINK
-========================================================= */
+ 
 
 header nav .hidden.lg\:flex.items-center.gap-8 > a.text-blue-700 {
     color: #2563eb !important;
 }
 
 
-/* =========================================================
-   GET A QUOTE BUTTON
-========================================================= */
 
 header nav a[href="contact.html"][class*="bg-blue-700"] {
     white-space: nowrap;
@@ -238,10 +211,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
         rgba(29, 78, 216, 0.22);
 }
 
-
-/* =========================================================
-   MOBILE MENU
-========================================================= */
+ 
 
 #mobile-menu {
     transition:
@@ -260,11 +230,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 
     padding-left: 5px;
 }
-
-
-/* =========================================================
-   HOME HERO
-========================================================= */
+ 
 
 .home-hero {
     position: relative;
@@ -283,9 +249,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 }
 
 
-/* =========================================================
-   HERO SLIDES
-========================================================= */
+  
 
 .hero-slides {
     position: absolute;
@@ -320,11 +284,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 
     transform: scale(1);
 }
-
-
-/* =========================================================
-   HERO OVERLAY
-========================================================= */
+ 
 
 .hero-overlay {
     position: absolute;
@@ -342,11 +302,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
             rgba(2, 6, 23, 0.25) 100%
         );
 }
-
-
-/* =========================================================
-   HERO CONTENT
-========================================================= */
+ 
 
 .hero-content {
     position: relative;
@@ -373,11 +329,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 
     text-align: center;
 }
-
-
-/* =========================================================
-   HERO BADGE
-========================================================= */
+ 
 
 .hero-badge {
     display: inline-flex;
@@ -405,11 +357,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 
     backdrop-filter: blur(8px);
 }
-
-
-/* =========================================================
-   HERO HEADING
-========================================================= */
+ 
 
 .hero-content h1 {
     width: 100%;
@@ -440,11 +388,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
     color: #60a5fa;
 }
 
-
-/* =========================================================
-   HERO DESCRIPTION
-========================================================= */
-
+ 
 .hero-content p {
     width: 100%;
 
@@ -462,10 +406,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
     text-align: center;
 }
 
-
-/* =========================================================
-   HERO BUTTONS
-========================================================= */
+ 
 
 .hero-buttons {
     width: 100%;
@@ -505,8 +446,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
         border-color 0.25s ease;
 }
 
-
-/* Primary */
+ 
 
 .hero-btn.primary {
     background: #2563eb;
@@ -531,7 +471,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 }
 
 
-/* Secondary */
+ 
 
 .hero-btn.secondary {
     background:
@@ -553,10 +493,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
     transform: translateY(-3px);
 }
 
-
-/* =========================================================
-   HERO FEATURES
-========================================================= */
+ 
 
 .hero-features {
     width: 100%;
@@ -596,10 +533,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
     font-size: 13px;
 }
 
-
-/* =========================================================
-   HERO DOTS
-========================================================= */
+ 
 
 .hero-dots {
     position: absolute;
@@ -652,12 +586,7 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
 
     background: #60a5fa;
 }
-
-
-/* =========================================================
-   HOME CARD HOVER
-   Used by Home page cards
-========================================================= */
+ 
 
 .group {
     transition:
@@ -675,18 +604,13 @@ header nav a[href="contact.html"][class*="bg-blue-700"]:hover {
         transform 0.5s ease,
         filter 0.5s ease;
 }
-
-
-/* =========================================================
-   FOOTER
-========================================================= */
+ 
 
 footer {
     position: relative;
 }
 
-
-/* Footer normal links */
+ 
 
 footer a:not(.footer-social) {
     transition:
@@ -700,10 +624,7 @@ footer a:not(.footer-social):hover {
     transform: translateX(3px);
 }
 
-
-/* =========================================================
-   FOOTER SOCIAL ICONS
-========================================================= */
+ 
 
 .footer-socials {
     display: flex;
@@ -782,10 +703,7 @@ footer a:not(.footer-social):hover {
     color: #ffffff;
 }
 
-
-/* =========================================================
-   WHATSAPP FLOATING BUTTON
-========================================================= */
+ 
 
 .fixed.bottom-5.right-5 {
     transition:
@@ -801,10 +719,7 @@ footer a:not(.footer-social):hover {
         rgba(0, 0, 0, 0.20);
 }
 
-
-/* =========================================================
-   ACCESSIBILITY
-========================================================= */
+ 
 
 a:focus-visible,
 button:focus-visible {
@@ -815,10 +730,7 @@ button:focus-visible {
     outline-offset: 3px;
 }
 
-
-/* =========================================================
-   TABLET
-========================================================= */
+ 
 
 @media (max-width: 1023px) {
 
@@ -839,14 +751,10 @@ button:focus-visible {
 
 }
 
-
-/* =========================================================
-   MOBILE
-========================================================= */
+ 
 
 @media (max-width: 767px) {
-
-    /* Header */
+ 
 
     header {
         height: 72px;
@@ -872,8 +780,7 @@ button:focus-visible {
         letter-spacing: 0.12em;
     }
 
-
-    /* Hero */
+ 
 
     .home-hero {
         height:
@@ -986,12 +893,7 @@ button:focus-visible {
         height: 17px;
     }
 
-}
-
-
-/* =========================================================
-   SMALL MOBILE
-========================================================= */
+} 
 
 @media (max-width: 480px) {
 
@@ -1047,10 +949,7 @@ button:focus-visible {
 
 }
 
-
-/* =========================================================
-   REDUCED MOTION
-========================================================= */
+ 
 
 @media (prefers-reduced-motion: reduce) {
 
@@ -1077,10 +976,7 @@ button:focus-visible {
     box-shadow:
         0 10px 25px
         rgba(15, 23, 42, 0.10);
-} 
-/* =========================================================
-   MOBILE MENU - CENTERED
-========================================================= */
+}  
 
 @media (max-width: 1023px) {
 
@@ -1121,7 +1017,7 @@ button:focus-visible {
     }
 
 
-    /* Navigation links */
+    
 
     #mobile-menu a {
         display: flex;
@@ -1166,8 +1062,7 @@ button:focus-visible {
         font-weight: 700;
     }
 
-
-    /* Get a Quote */
+ 
 
     #mobile-menu a:last-child {
         width: 150px;
@@ -1190,10 +1085,7 @@ button:focus-visible {
 
         justify-content: center;
     }
-
- /* =========================================================
-   MOBILE MENU
-========================================================= */
+ 
 
 @media (max-width: 1023px) {
 
@@ -1255,8 +1147,7 @@ button:focus-visible {
 
         background: #f8fafc;
     }
-
-    /* Active page */
+ 
 
     #mobile-menu > div > a.text-blue-700 {
         color: #2563eb !important;
@@ -1264,7 +1155,7 @@ button:focus-visible {
         font-weight: 700;
     }
 
-    /* Get a Quote */
+   
 
     #mobile-menu > div > a.mobile-quote-btn {
         width: 150px !important;

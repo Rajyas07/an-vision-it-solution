@@ -142,8 +142,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
         startSlider();
 
-
-        /* Pause when browser tab is hidden */
+ 
 
         document.addEventListener(
             "visibilitychange",
